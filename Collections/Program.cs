@@ -24,8 +24,7 @@ namespace Collections
             //isimler[4] = "ilker";
             //Console.WriteLine(isimler[4]);
             //Console.WriteLine(isimler[0]);
-
-
+          
             List<string> isimler2 = new List<string> { 
                 "samet",
                 "kayahan",
@@ -39,6 +38,8 @@ namespace Collections
             isimler2.Add("ilker");
             Console.WriteLine(isimler2[4]);
             Console.WriteLine(isimler2[0]);
+            isimler2.Add("hayati");
+            Console.WriteLine(isimler2[5]);
         }
     }
 }

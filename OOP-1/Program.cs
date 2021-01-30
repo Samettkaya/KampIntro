@@ -6,6 +6,7 @@ namespace OOP_1
     {
         static void Main(string[] args)
         {
+            
             Product product1 = new Product();
 
             product1.Id = 1;
@@ -26,10 +27,20 @@ namespace OOP_1
             productManager.Add(product1);
             Console.WriteLine(product1.ProductName);
 
+            //productManager.Add1(product1);
+            //Console.WriteLine(product1.ProductName);
+           
+            //int sayi = 100;
+            //productManager.BirseyYap(sayi);
+            //Console.WriteLine(sayi);
+       
+
             //productManager.Topla2(3, 6);
 
             //int toplamaSonucu = productManager.Topla(3, 6);
             //Console.WriteLine(toplamaSonucu*2);
+
+
         }
 
     }
